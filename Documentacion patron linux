@@ -1,24 +1,24 @@
- Instalacion de Debian (Jessie)
+ Instalación de Debian (Jessie)
  Cuando se procede a instalar dos sistemas operativos donde uno de los dos es guindor lo primero es instalar guindor, 
- para esto se particiona el disco duro. En la parte Linux se recomienda crear una particion para swap (area de intercambio)
- de 2 o 3 GB depende de la cantidad de Memoria RAM que se tenga, y otra para el sistema ( " / " ).
- Instalacion:
- I. Se descarga una distribucion de linux https://www.debian.org/CD/http-ftp/#stable (mirror UCR http://mirrors.ucr.ac.cr/debian-cd/7.5.0-live/amd64/iso-hybrid/)
+ para esto se particiona el disco duro. En la parte Linux se recomienda crear una partición para swap (area de intercambio)
+ de 2 o 3 GB dependiendo de la cantidad de Memoria RAM que se tenga, y otra para el sistema ( " / " ).
+ Instalación:
+ I. Se descarga una distribución de linux https://www.debian.org/CD/http-ftp/#stable (mirror UCR http://mirrors.ucr.ac.cr/debian-cd/7.5.0-live/amd64/iso-hybrid/)
  II. Se copia a un disco o se crea una USB booteable con unetbootin o desde la terminal mediante el comando dd (dd if=origen of=destino)
- III. Se procede a la instalacion:
+ III. Se procede a la instalación:
  imagen 1
  seleccionamos install o graphical install
- imagenes de instalacion...
+ imagenes de instalación...
  Depende el tipo de entorno que traiga el ISO descargado asi se vera el login y la interfaz.
- Para esta documetacion se uso una distribucion sin entorno, es solo el sistema base.
- IV. Una vez se tiene el OS instalado se procede con la instalacion de los programas. Para el Patron de la Escuela de Ingenieria en Computacion
- se recomienda cambiar el home del administrador una vez terminada la instalacion del OS, esto porque se va a trabajar con LDAP para la autentificacion
+ Para esta documetación se uso una distribución sin entorno, es solo el sistema base.
+ IV. Una vez se tiene el OS instalado se procede con la instalación de los programas. Para el Patron de la Escuela de Ingeniería en Computación
+ se recomienda cambiar el home del administrador una vez terminada la instalación del OS, esto porque se va a trabajar con LDAP para la autentificacion
  de los usuarios y el servidor se montara en /home, que inicialmente ahi se encuentra el home del administrador. El nuevo home del administrador sera
  /local/home/administrator.
  se ejecuta el script con la lista de los programas
  V. configuraciones:
  Para el login se va a usar lightdm, se instala el lightdm-kde-greeter.
- La ultima version es la 0.3, pero presenta problemas. Se recomienda usar la 0.2 se probo y funciona correctamente.
+ La ultima versión es la 0.3, pero presenta problemas. Se recomienda usar la 0.2 se probó y funciona correctamente.
  
  
  
