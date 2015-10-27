@@ -1,17 +1,17 @@
- Instalacion de Debian (Jessie)
+ Instalación de Debian (Jessie)
  Cuando se procede a instalar dos sistemas operativos donde uno de los dos es guindor lo primero es instalar guindor, 
- para esto se particiona el disco duro. En la parte Linux se recomienda crear una particion para swap (area de intercambio)
+ para esto se particiona el disco duro. En la parte Linux se recomienda crear una partición para swap (area de intercambio)
  de 2 o 3 GB depende de la cantidad de Memoria RAM que se tenga, y otra para el sistema ( " / " ).
- Instalacion:
- I. Se descarga una distribucion de linux https://www.debian.org/CD/http-ftp/#stable (mirror UCR http://mirrors.ucr.ac.cr/debian-cd/7.5.0-live/amd64/iso-hybrid/)
+ Instalación:
+ I. Se descarga una distribución de linux https://www.debian.org/CD/http-ftp/#stable (mirror UCR http://mirrors.ucr.ac.cr/debian-cd/7.5.0-live/amd64/iso-hybrid/)
  II. Se copia a un disco o se crea una USB booteable con unetbootin o desde la terminal mediante el comando dd (dd if=origen of=destino)
- III. Se procede a la instalacion:
+ III. Se procede a la instalación:
  imagen 1
  seleccionamos install o graphical install
- imagenes de instalacion...
+ imagenes de instalación...
  Depende el tipo de entorno que traiga el ISO descargado asi se vera el login y la interfaz.
- Para esta documetacion se uso una distribucion sin entorno, es solo el sistema base.
- IV. Una vez se tiene el OS instalado se procede con la instalacion de los programas. Para el Patron de la Escuela de Ingenieria en Computacion
+ Para esta documetación se usó una distribución sin entorno, es solo el sistema base.
+ IV. Una vez se tiene el OS instalado se procede con la instalación de los programas. Para el Patrón de la Escuela de Ingenieria en Computacion
  se recomienda cambiar el home del administrador una vez terminada la instalacion del OS, esto porque se va a trabajar con LDAP para la autentificacion
  de los usuarios y el servidor se montara en /home, que inicialmente ahi se encuentra el home del administrador. El nuevo home del administrador sera
  /local/home/administrator.
